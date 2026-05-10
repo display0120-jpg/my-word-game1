@@ -3,7 +3,7 @@ import requests
 import xml.etree.ElementTree as ET
 import random
 
-API_KEY = "AIzaSyCr2z0SweYhOSWzthJxNBiX-Ro3Gt9XNpI"
+API_KEY = "6624DD55A9578E43F74B9B229168395E"
 
 def check_word_exists(word):
     params = {'key': API_KEY, 'q': word, 'target': 1, 'method': 'exact', 'pos': 1}
